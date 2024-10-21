@@ -31,5 +31,6 @@ def generate_content(db:Session,topic:str)->str:
           generate_text=response.choices[0].message['content'].strip()
           crud.create_search_content(db,generate_text,search_term.id)
           
+          return generate_text
 
 

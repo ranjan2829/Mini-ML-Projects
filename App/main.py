@@ -24,4 +24,4 @@ def read_root(req:Request):
 @app.post("/generate/")
 async def generate_content(payLoad:schemas.GeneratePayLoad,db:Session=Depends(get_db)):
      generated_text=await run_in_threadpool(utility.generate_content,db,payLoad.topic)
-     
+     return {"generated_text":generated_text}
