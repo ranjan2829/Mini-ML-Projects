@@ -1,0 +1,23 @@
+body {
+     padding-top: 56px;
+ }
+ 
+ .container {
+     max-width: 800px;
+ }
+ 
+ .form-section {
+     margin-bottom: 40px;
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     background-color: #f9f9f9;
+ }
+ 
+ .result-section {
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     background-color: #f1f1f1;
+ }
+ 
