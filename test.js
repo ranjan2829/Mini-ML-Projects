@@ -1,8 +1,8 @@
 const auto = require("autocannon");
 
 const urls = [
-  "http://localhost:3000/",
-  "http://localhost:3000/stress-test",
+  "http://localhost:3001/",
+  "http://localhost:3002/stress-test",
 ];
 
 const duration = 30;
