@@ -1,5 +1,5 @@
 const auto=require("autocannon");
-const url='https://localhost:3000';
+const url='http://localhost:3000/';
 const duration =30;
 const instance=auto({
     url,duration
@@ -13,3 +13,5 @@ const instance=auto({
 
     }
 });
+
+auto.track(instance);
